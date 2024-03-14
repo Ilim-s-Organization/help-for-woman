@@ -140,17 +140,78 @@ section {
 
 /* header */
 
-.header_main {
+.header_main  {
 	margin-top: 32px;
 }
 
-.header_list {
+
+.header_list  {
 	width: 497px;
 }
 
-.header_btns {
-	width: 230px;
+
+.header_btns  {
+	width: 270px;
 	flex-wrap: nowrap;
+}
+
+.header_btn {
+	border-radius: 8px;
+	border: 1px solid #E6E6E6;
+	width: 126px;
+	height: 51px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+/* children */
+
+.children {
+	background: url(./img/Desktop\ -\ 2.jpg)center no-repeat;
+	height: 100%;
+}
+
+.children_main {
+	align-items: flex-end;
+}
+
+.children_left {
+	width: 65%;
+}
+
+.children_right {
+	width: 35%;
+}
+
+.child_sec {
+	margin-top: 55px;
+	margin-bottom: 32px;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 100px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: #008774;
+}
+
+.child_txt {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: 0em;
+	color: #E6F6F4;
+	max-width: 490px;
+	margin-bottom: 16px;
+}
+
+.children_btn {
+	width: 300px;
+	height: 51px;
+	background: #008774;
+	color: #fff;
 }
 
 
