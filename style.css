@@ -371,3 +371,16 @@ section {
 	display: flex;
 }
 
+.apps{
+width: 176px;
+height: 48px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 56px 0px;
+}
