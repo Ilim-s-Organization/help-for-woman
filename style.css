@@ -401,5 +401,15 @@ section {
 }
 
 .footer_card{
-	
+width: 1120px;
+height: 280px;
+left: 160px;
+right: 160px;
+top: 96px;
+bottom: 85px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
 }
