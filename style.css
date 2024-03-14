@@ -140,19 +140,27 @@ section {
 
 /* header */
 
-.header_main{
+.header_main {
 	margin-top: 32px;
 }
-.header_list{
+
+.header_list {
 	width: 497px;
 }
-.header_btns{
+
+.header_btns {
 	width: 270px;
 	flex-wrap: nowrap;
 }
-.header_btn{
+
+.header_btn {
 	border-radius: 8px;
 	border: 1px solid #E6E6E6;
 	width: 126px;
 	height: 51px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: -0.02em;
+	text-align: left;
 }
