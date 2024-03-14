@@ -164,4 +164,10 @@ section {
 	letter-spacing: -0.02em;
 	text-align: left;
 }
+
 /* children */
+
+.children {
+	background: url(./img/Desktop\ -\ 2.jpg)center no-repeat;
+	height: 100%;
+}
