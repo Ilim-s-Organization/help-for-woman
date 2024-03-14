@@ -143,3 +143,6 @@ section {
 .header_main{
 	margin-top: 32px;
 }
+.header_list{
+	max-width: 497px;
+}
