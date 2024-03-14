@@ -322,7 +322,7 @@ section {
 	/* align-items: flex-start; */
 	padding: 24px;
 	flex: none;
-	order: 2;
+	/* order: 2; */
 	/* flex-grow: 0; */
 	margin: 0px 24px;
 	color: rgb(11, 11, 14);
@@ -332,4 +332,26 @@ section {
 	line-height: 24px;
 	letter-spacing: -0.37%;
 	/* text-align: left; */
+}
+
+.span_man {
+	/* position: static; */
+	width: 276px;
+	height: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 24px;
+	/* flex: none; */
+	/* order: 3; */
+	/* flex-grow: 0; */
+	margin: 0px -38px;
+	color: rgb(89, 89, 105);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 12%;
+	/* text-align: left; */
+	text-transform: uppercase;
 }
