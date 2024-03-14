@@ -298,3 +298,7 @@ line-height: 24px;
 letter-spacing: -1%;
 text-align: left;
 }
+
+.white_tab{
+	display: flex;
+}
