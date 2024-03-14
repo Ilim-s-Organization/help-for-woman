@@ -262,69 +262,74 @@ section {
 }
 
 .white_box {
-	width: 553px;
-	height: 206px;
-	left: 740px;
-	right: 147px;
-	top: 236px;
-	bottom: 218px;
+	width: 583px;
+	height: 202px;
+	margin-left: 740px;
+	margin-right: 147px;
+	margin-top: -205px;
+	/* margin-bottom: 218px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-start;
-	padding: 24px;
+	padding: 21px;
 	border-radius: 10px;
-	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
 	background: rgb(255, 255, 255);
 }
 
 .span_box {
-	position: static;
-	width: 510px;
+	/* position: static; */
+	width: 616px;
 	height: 96px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-start;
-	padding: 24px;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	margin: 0px 24px;
+	padding: 34px;
+	/* flex: none; */
+	/* order: 0; */
+	/* flex-grow: 0; */
+	margin: -15px -30px;
 	color: rgb(61, 61, 72);
 	font-size: 16px;
-	font-weight: 400;
+	/* font-weight: 400; */
 	line-height: 24px;
 	letter-spacing: -1%;
-	text-align: left;
+	/* text-align: left; */
 }
 
+
+ 
 .white_tab {
 	display: flex;
+	top: -57px;
+	margin: -22px;
 }
 
 .img_man {
 	width: 60px;
 	height: 60px;
-	flex: none;
-	flex-grow: 0;
-	margin: 0px 24px;
-	border-radius: 32px;
+	/* flex: none; */
+	/* flex-grow: 0; */
+	margin: 9px 14px;
+	/* border-radius: 32px; */
 }
+
 
 .sp_man {
 	/* position: static; */
-	/* width: 180px; */
-	height: 24px;
-	display: flex;
+	width: 180px;
+	/* height: 82px; */
+	/* display: flex; */
 	flex-direction: column;
 	justify-content: flex-end;
 	/* align-items: flex-start; */
-	padding: 24px;
-	flex: none;
+	/* padding: 24px; */
+	/* flex: none; */
 	/* order: 2; */
 	/* flex-grow: 0; */
-	margin: 0px 24px;
+	margin: 41px 2px 18px;
 	color: rgb(11, 11, 14);
 	/* font-family: Vazirmatn; */
 	font-size: 18px;
@@ -336,8 +341,8 @@ section {
 
 .span_man {
 	/* position: static; */
-	width: 276px;
-	height: 24px;
+	/* width: 276px; */
+	height: 88px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -346,7 +351,7 @@ section {
 	/* flex: none; */
 	/* order: 3; */
 	/* flex-grow: 0; */
-	margin: 0px -38px;
+	margin: 0px -58px;
 	color: rgb(89, 89, 105);
 	font-size: 14px;
 	font-weight: 500;
