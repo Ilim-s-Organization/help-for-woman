@@ -146,3 +146,7 @@ section {
 .header_list{
 	width: 497px;
 }
+.header_btns{
+	width: 230px;
+	flex-wrap: nowrap;
+}
