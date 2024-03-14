@@ -171,6 +171,14 @@ section {
 	background: url(./img/Desktop\ -\ 2.jpg)center no-repeat;
 	height: 100%;
 }
-.child_sec{
-	margin-top: 106px;
+
+.child_sec {
+	margin-top: 55px;
+	margin-bottom: 32px;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 100px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: #008774;
 }
