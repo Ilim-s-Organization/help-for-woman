@@ -137,3 +137,9 @@ section {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+/* header */
+
+.header_main{
+	margin-top: 32px;
+}
