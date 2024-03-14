@@ -150,3 +150,15 @@ section {
 	width: 230px;
 	flex-wrap: nowrap;
 }
+
+.oneFooter{
+	height: 810px;
+	background-image: url(.//img/svg/footerOneSvg.svg);
+	background-position: 60% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	padding-bottom: 120px;
+	display: flex;
+}
