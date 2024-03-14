@@ -445,6 +445,12 @@ section {
 	text-align: left;
 }
 
+.footer_like {
+	width: 138.97px;
+	height: 38.97px;
+	margin-left: -124px;
+	margin-top: -40px;
+}
 
 .footer_pgp {
 	/* position: static; */
