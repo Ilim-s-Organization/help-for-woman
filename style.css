@@ -147,12 +147,12 @@ section {
 	width: 497px;
 }
 .header_btns{
-	width: 230px;
+	width: 270px;
 	flex-wrap: nowrap;
 }
 .header_btn{
 	border-radius: 8px;
 	border: 1px solid #E6E6E6;
-	width: 106px;
-	height: 41px;
+	width: 126px;
+	height: 51px;
 }
