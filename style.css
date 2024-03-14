@@ -429,3 +429,16 @@ section {
 	margin: 56px 0px;
 	color: white;
 }
+
+.footer_tit{
+width: 61px;
+height: 40px;
+left: 48.3px;
+top: 0;	
+color: rgb(255, 255, 255);
+font-size: 30.74px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: -2%;
+text-align: left;
+}
