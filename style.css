@@ -155,7 +155,7 @@ section {
 
 
 /* amal */
-.oneFooter {
+.oneFooter{
 	height: 810px;
 	background-image: url(.//img/svg/footerOneSvg.svg);
 	background-position: 60% 0;
@@ -299,8 +299,6 @@ section {
 	/* text-align: left; */
 }
 
-
- 
 .white_tab {
 	display: flex;
 	top: -57px;
@@ -315,7 +313,6 @@ section {
 	margin: 9px 14px;
 	/* border-radius: 32px; */
 }
-
 
 .sp_man {
 	/* position: static; */
@@ -360,3 +357,17 @@ section {
 	/* text-align: left; */
 	text-transform: uppercase;
 }
+
+/* footer */
+.footer{
+	height: 810px;
+	background-image: url(.//img/svg/footer.svg);
+	background-position: 60% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	align-items: center;
+	padding-bottom: 120px;
+	display: flex;
+}
+
