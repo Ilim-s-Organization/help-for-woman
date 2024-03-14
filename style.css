@@ -140,18 +140,22 @@ section {
 
 /* header */
 
-.header_main{
+.header_main {
 	margin-top: 32px;
 }
-.header_list{
+
+.header_list {
 	width: 497px;
 }
-.header_btns{
+
+.header_btns {
 	width: 230px;
 	flex-wrap: nowrap;
 }
 
-.oneFooter{
+
+/* amal */
+.oneFooter {
 	height: 810px;
 	background-image: url(.//img/svg/footerOneSvg.svg);
 	background-position: 60% 0;
@@ -161,4 +165,17 @@ section {
 	align-items: center;
 	padding-bottom: 120px;
 	display: flex;
+}
+
+.card_home {
+	/* Text */
+	/* position: absolute; */
+	width: 396px;
+	height: 188px;
+	left: 190px;
+	top: 236px;
+	/* Foundation /Green/Light :active */
+	/* border: 1px solid rgb(176, 228, 221); */
+	/* Foundation/Green/Dark */
+	/* background: rgb(0, 127, 109); */
 }
