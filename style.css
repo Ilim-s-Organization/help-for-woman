@@ -548,4 +548,10 @@ section {
 	display: flex;
 	flex-direction: row;
 	  }
-	  
+.adress_block{
+	width: 480px;
+	height: 192px;
+	display: flex;
+	background: #E6F6F4;
+	background-image: url("img/Shape.png") no-repeat;
+	}
