@@ -573,3 +573,12 @@ section {
 	color: #3A170080;
 	margin-top: 58px;
 	}
+	.adress_tel{
+		font-family: Manrope;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 32px;
+		letter-spacing: 0px;
+		text-align: left;
+		color: #3A1700;
+		}
