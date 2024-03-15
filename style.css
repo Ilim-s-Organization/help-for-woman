@@ -596,3 +596,8 @@ section {
 			text-align: center;
 			margin-top: 400px;
 			}
+			.find_tabs {
+				display: flex;
+				text-align: center;
+				gap: 50px;
+			  }
