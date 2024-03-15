@@ -621,3 +621,21 @@ section {
 				margin-right: auto;
 				margin-top: 70px;
 				}
+				.find_tab_img_1{
+					margin-top: 70px;
+				  }
+				  .find_tab:hover {
+					border-bottom-color: #007bff;
+				  }
+				  
+				  .find_tab.active {
+					border-bottom-color: #007bff;
+				  }
+				  
+				  .find_tab-content {
+					display: none;
+				  }
+				  
+				  .find_tab-content.active {
+					display: block;
+				  }
