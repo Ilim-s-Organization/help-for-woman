@@ -547,9 +547,76 @@ section {
 /* Ramazan  */
 .Find_section {
 	width: 1266px;
-	height: 1791px;
+	height: 2000px;
 	margin-left: auto;
 	margin-right: auto;
+	}
+	.find_title{
+	font-family: Vazirmatn;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 94px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin-top: 100px;
+	}
+	
+	/* Tabs */
+	.find_tabs {
+	  display: flex;
+	  text-align: center;
+	  gap: 50px;
+	}
+	
+	.find_tab {
+	  padding: 10px 20px;
+	  cursor: pointer;
+	  border-bottom: 3px solid transparent;
+	  transition: border-bottom-color 0.4s ease;
+	}
+	
+	.find_tab:hover {
+	  border-bottom-color: #007bff;
+	}
+	
+	.find_tab.active {
+	  border-bottom-color: #007bff;
+	}
+	
+	.find_tab-content {
+	  display: none;
+	}
+	
+	.find_tab-content.active {
+	  display: block;
+	}
+	.find_tabs_block{
+	width: 900px;
+	display: flex;
+	align-items: center;
+	font-family: Vazirmatn;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	}
+	.find_tab_img_1{
+	  margin-top: 70px;
+	}
+	
+	
+	
+	
+	
+	.adress_blocks{
+	  display: flex;
+	  flex-direction: row;
+	}
+	.adress_block{
 }
 
 .adress_blocks {
