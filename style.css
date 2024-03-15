@@ -607,3 +607,17 @@ section {
 				border-bottom: 3px solid transparent;
 				transition: border-bottom-color 0.4s ease;
 			  }
+			  .find_tabs_block{
+				width: 900px;
+				display: flex;
+				align-items: center;
+				font-family: Vazirmatn;
+				font-size: 25px;
+				font-weight: 400;
+				line-height: 28px;
+				letter-spacing: 0.04em;
+				justify-content: center;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 70px;
+				}
