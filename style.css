@@ -534,3 +534,17 @@ section {
 	text-align: center;
 	/* position: static; */
 }
+
+
+
+/* Ramazan  */
+.Find_section{
+	width: 1266px;
+	height: 1791px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.adress_blocks{
+	display: flex;
+	flex-direction: row;
+	  }
