@@ -168,29 +168,28 @@ section {
 }
 
 /* children */
-
-.children {
-	height: 810px;
-	background-image: url(.//img/children_img.jpg);
-	background-position: 60% 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	align-items: center;
-	padding-bottom: 120px;
-	display: flex;
-}
-
-.children_main {
+.children_right {
+	flex-direction: column;
+	align-content: flex-end;
+	padding-right: 100px;
 	align-items: flex-end;
 }
 
-.children_left {
-	width: 55%;
+.swiper {
+	width: 1280px;
+	height: 620px;
 }
 
-.children_right {
-	width: 45%;
+.swiper-slide {
+	background-image: url(.//img/children_img.jpg);
+}
+
+.swiper-button-next {
+	color: #FFF;
+}
+
+.swiper-button-prev {
+	color: #FFF;
 }
 
 .child_sec {
@@ -210,7 +209,7 @@ section {
 	letter-spacing: 0em;
 	color: #E6F6F4;
 	max-width: 490px;
-	margin-bottom: 16px;
+	margin-bottom: 40px;
 }
 
 .children_btn {
@@ -549,8 +548,9 @@ section {
 	height: 2000px;
 	margin-left: auto;
 	margin-right: auto;
-	}
-	.find_title{
+}
+
+.find_title {
 	font-family: Vazirmatn;
 	font-size: 60px;
 	font-weight: 100;
@@ -558,38 +558,39 @@ section {
 	letter-spacing: 0em;
 	text-align: center;
 	margin-top: 100px;
-	}
-	
-	/* Tabs */
-	.find_tabs {
-	  display: flex;
-	  text-align: center;
-	  gap: 50px;
-	}
-	
-	.find_tab {
-	  padding: 10px 20px;
-	  cursor: pointer;
-	  border-bottom: 3px solid transparent;
-	  transition: border-bottom-color 0.4s ease;
-	}
-	
-	.find_tab:hover {
-	  border-bottom-color: #007bff;
-	}
-	
-	.find_tab.active {
-	  border-bottom-color: #007bff;
-	}
-	
-	.find_tab-content {
-	  display: none;
-	}
-	
-	.find_tab-content.active {
-	  display: block;
-	}
-	.find_tabs_block{
+}
+
+/* Tabs */
+.find_tabs {
+	display: flex;
+	text-align: center;
+	gap: 50px;
+}
+
+.find_tab {
+	padding: 10px 20px;
+	cursor: pointer;
+	border-bottom: 3px solid transparent;
+	transition: border-bottom-color 0.4s ease;
+}
+
+.find_tab:hover {
+	border-bottom-color: #007bff;
+}
+
+.find_tab.active {
+	border-bottom-color: #007bff;
+}
+
+.find_tab-content {
+	display: none;
+}
+
+.find_tab-content.active {
+	display: block;
+}
+
+.find_tabs_block {
 	width: 900px;
 	display: flex;
 	align-items: center;
@@ -602,21 +603,22 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
-	}
-	.find_tab_img_1{
-	  margin-top: 70px;
-	}
-	
-	
-	
-	
-	
-	.adress_blocks{
-	  display: flex;
-	  flex-direction: row;
-	}
-	.adress_block{
 }
+
+.find_tab_img_1 {
+	margin-top: 70px;
+}
+
+
+
+
+
+.adress_blocks {
+	display: flex;
+	flex-direction: row;
+}
+
+.adress_block {}
 
 .adress_blocks {
 	display: flex;

@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -46,23 +47,61 @@
     </header>
     <section class="children">
         <div class="container">
-            <div class="children_main flex">
-                <div class="children_left"></div>
-                <div class="children_right">
-                    <h1 class="sec_tit child_sec">He twilight</h1>
-                    <p class="child_txt">This text is an example of text that can be replaced in the same space. This
-                        text
-                        was generated from the Arabic text generator, where you can generate such text or many other
-                        texts
-                        in addition to increasing the number of letters that the application generates.</p>
-                    <button class="btn children_btn">Contribute now</button>
+            <div class="children_main flex"><!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="children_right flex">
+                                <h1 class="sec_tit child_sec">He twilight</h1>
+                                <p class="child_txt">This text is an example of text that can be replaced in the same
+                                    space. This
+                                    text
+                                    was generated from the Arabic text generator, where you can generate such text or
+                                    many other
+                                    texts
+                                    in addition to increasing the number of letters that the application generates.</p>
+                                <button class="btn children_btn">Contribute now</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="children_right flex">
+                                <h1 class="sec_tit child_sec">He twilight</h1>
+                                <p class="child_txt">This text is an example of text that can be replaced in the same
+                                    space. This
+                                    text
+                                    was generated from the Arabic text generator, where you can generate such text or
+                                    many other
+                                    texts
+                                    in addition to increasing the number of letters that the application generates.</p>
+                                <button class="btn children_btn">Contribute now</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="children_right flex">
+                                <h1 class="sec_tit child_sec">He twilight</h1>
+                                <p class="child_txt">This text is an example of text that can be replaced in the same
+                                    space. This
+                                    text
+                                    was generated from the Arabic text generator, where you can generate such text or
+                                    many other
+                                    texts
+                                    in addition to increasing the number of letters that the application generates.</p>
+                                <button class="btn children_btn">Contribute now</button>
+                            </div>
+                        </div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
 
-                    <swiper-container>
-                        <swiper-slide>Slide 1</swiper-slide>
-                        <swiper-slide>Slide 2</swiper-slide>
-                        <swiper-slide>Slide 3</swiper-slide>
-                        <swiper-slide>Slide ...</swiper-slide>
-                    </swiper-container>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
             </div>
         </div>
@@ -195,7 +234,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="index.js"></script>
 </body>
 
