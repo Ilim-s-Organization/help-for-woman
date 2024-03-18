@@ -650,3 +650,8 @@ section {
 		text-align: left;
 		color: #3A1700;
 		}
+		.adress_block_flex{
+			display: flex;
+			flex-direction: column;
+			margin-left: 48px;
+		  }
