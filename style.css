@@ -618,8 +618,6 @@ section {
 	flex-direction: row;
 }
 
-.adress_block {}
-
 .adress_blocks {
 	display: flex;
 	flex-direction: row;
@@ -633,3 +631,13 @@ section {
 	background-image: url("img/Shape.png") no-repeat;
 	background-image: url("img/Shape.png") no-repeat;
 }
+.adress_name{
+	font-family: Manrope;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #3A170080;
+	margin-top: 58px;
+	}
