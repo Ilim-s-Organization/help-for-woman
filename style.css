@@ -663,4 +663,46 @@ display: flex;
 flex-direction: column;
 margin-left: 20px;
 }
+.find_tabs_page1{
+	width: 1140px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	display: grid;
+	grid-template-areas: "b b a" "b b c" "b b c"
+	}
+	.find_tabs_video-1{
+	height: 270px;
+	}
+	.find_tabs_img-1{
+	/* width: 270px; */
+	height: 253px;   
+	}
+	.find_tabs_img-2{
+	/* width: 170px; */
+	height: 253px;
+	}
+	.find_tabs_img-3{
+	/* width: 270px; */
+	height: 526px;
+	}
+	.find_tabs_img-4{
+	/* width: 365px; */
+	height: 520px;
+	}
+	.find_tabs_img-5{
+	/* width: 560px; */
+	height: 253px;
+	}
+	.find_tabs_img-6{
+	/* width: 270px; */
+	height: 253px;
+	}
+	.find_tabs_img-7{
+	/* width: 560px; */
+	height: 100%;
+	}
+	
 
