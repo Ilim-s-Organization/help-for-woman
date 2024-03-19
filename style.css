@@ -663,17 +663,7 @@ display: flex;
 flex-direction: column;
 margin-left: 20px;
 }
-.find_tabs_page1{
-	width: 1140px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	display: grid;
-	grid-template-areas: "b b a" "b b c" "b b c"
-	}
-	.find_tabs_video-1{
+.find_tabs_video-1{
 	height: 270px;
 	}
 	.find_tabs_img-1{
