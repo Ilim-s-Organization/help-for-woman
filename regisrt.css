@@ -126,6 +126,11 @@ form {
   position: relative;
 }
 
+::selection {
+	background: #00A991; 
+}
+
+
 .password-field svg {
   position: absolute;
   width: 24px;
@@ -149,7 +154,8 @@ form {
 }
 
 .form__submit:hover {
-  box-shadow: 0 -1px 10px rgba(13,12,34, 0.3);
+  background: #00A991;
+  box-shadow: 0 -1px 10px #00A991;
 }
 
 .password__settings {
@@ -219,7 +225,7 @@ a {
   height: 300px;
   padding: 1px;
   border-radius: 100%;
-  background: #0875e4;
+  background: #00A991;
   animation: bounce 3s ease-out forwards;
   transform: translateY(calc(-50vh - 116px));
 }

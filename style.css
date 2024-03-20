@@ -3,6 +3,11 @@ body {
 	height: 100%;
 }
 
+::selection {
+	background: #00A991; 
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -166,6 +171,11 @@ section {
 	line-height: 21px;
 	letter-spacing: -0.02em;
 	text-align: left;
+}
+
+.header_btn:hover{
+	background: #00A991;
+	border: solid 1px #06927f;
 }
 
 /* children */

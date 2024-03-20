@@ -215,7 +215,7 @@ button:focus {
 .info .location {
   text-transform: uppercase;
   margin-left: 32px;
-  color: #008774;
+  color: #00A991;
   
 }
 .info .location {
@@ -335,7 +335,7 @@ nav ul li a:before, nav ul li:before, nav ul li:after {
   position: absolute;
   height: 33.33%;
   width: 0;
-  background:#008774;
+  background: #00A991;
   ;
   transition: .4s ease;
 }
