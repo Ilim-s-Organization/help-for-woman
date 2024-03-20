@@ -640,15 +640,13 @@ margin-top: 48px;
 margin-left: 48px;
 background: #FFFFFF;
 border-radius: 100%;
-  }
-
+}
 .adress_block {
 width: 480px;
 height: 192px;
 display: flex;
-background: #E6F6F4;
-background-image: url("img/Shape.png") no-repeat;
-background-image: url("img/Shape.png") no-repeat;
+background: #00A991;
+margin-left: 5px;
 }
 .adress_name{
 font-family: Manrope;
