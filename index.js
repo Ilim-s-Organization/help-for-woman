@@ -20,6 +20,7 @@ const swiper = new Swiper('.swiper', {
   // },
 });
 
+// Tabs
 function find_openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("find_tab-content");
@@ -36,3 +37,4 @@ function find_openTab(evt, tabName) {
   evt.currentTarget.style.borderBottomColor = "#007bff";
   moveLine(evt.currentTarget);
 }
+
