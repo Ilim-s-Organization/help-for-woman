@@ -146,14 +146,14 @@ section {
 
 
 .header_list {
-	width: 497px;
+	width: 643px;
 }
 
 
 .header_btns {
 	width: 270px;
 	flex-wrap: nowrap;
-	margin-top: -17px;
+	margin-top: -6px;
 }
 
 .header_btn {
@@ -454,7 +454,7 @@ section {
 	justify-content: center;
 }
 
-.app {
+.apper {
 	/* position: static; */
 	/* display: flex; */
 	flex-direction: row;
