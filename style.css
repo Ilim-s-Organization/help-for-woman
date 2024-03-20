@@ -153,6 +153,7 @@ section {
 .header_btns {
 	width: 270px;
 	flex-wrap: nowrap;
+	margin-top: -17px;
 }
 
 .header_btn {
