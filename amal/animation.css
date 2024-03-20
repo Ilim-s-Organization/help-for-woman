@@ -215,6 +215,8 @@ button:focus {
 .info .location {
   text-transform: uppercase;
   margin-left: 32px;
+  color: #008774;
+  
 }
 .info .location {
   font-weight: 800;
@@ -249,6 +251,7 @@ button:focus {
   font-weight: 500;
   margin-left: -72px;
   margin-top: 41px;
+  ;
 }
 .info.current--info {
   opacity: 1;
@@ -325,3 +328,68 @@ button:focus {
   width: 409px;
   text-align: center;
 } */
+
+/* nav */
+nav ul li a:before, nav ul li:before, nav ul li:after {
+  content: '';
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background:#008774;
+  ;
+  transition: .4s ease;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  position: relative;
+  padding: 4px 15px;
+  margin: 0 5px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  font-family: 'Tomorrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 10px 5px;
+  transition: .4s ease;
+  z-index: 1;
+}
+
+nav ul li a:before {
+  left: 0;
+  bottom: 66.66%;
+}
+
+nav ul li:before {
+  right: 0;
+  top: 33.33%;
+}
+
+nav ul li:after {
+  left: 0;
+  bottom: 0;
+}
+
+nav ul li:hover a {
+  text-shadow: 1px 1px 5px #000;
+}
+
+nav ul li:hover a:before {
+  width: 100%;
+}
+
+nav ul li:hover:before, nav ul li:hover:after {
+  width: 100%;
+}
