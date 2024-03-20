@@ -699,19 +699,17 @@ margin-left: 20px;
 	height: 253px;
 	}
 	.find_tabs_img-6{
-	/* width: 270px; */
 	height: 253px;
 	}
 	.find_tabs_img-7{
-	/* width: 560px; */
 	height: 100%;
 	}
 
 .find_tab_img {
-transition: 1s; /* Время эффекта */
+transition: 1s;
 }
 .find_tab_img:hover {
-transform: scale(0.9); /* Увеличиваем масштаб */
+transform: scale(0.9);
 }
 	
 
