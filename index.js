@@ -34,7 +34,7 @@ function find_openTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.classList.add("active");
-  evt.currentTarget.style.borderBottomColor = "#007bff";
+  evt.currentTarget.style.borderBottomColor = "#00A991";
   moveLine(evt.currentTarget);
 }
 
