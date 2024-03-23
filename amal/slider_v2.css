@@ -41,7 +41,6 @@
   z-index: 0;
 }
 
-
 .slider .item:nth-child(3) {
   left: 50%
 }
@@ -110,6 +109,7 @@
     transform: translate(0, 100px);
     filter: blur(33px);
   }
+
   to {
     opacity: 1;
     transform: translate(0, 0);
@@ -143,12 +143,12 @@
   color: #ad9f9f;
 }
 
-.prev{
+.prev {
   background: linear-gradient(334deg, #6e6363, transparent);
   font-size: 30px;
 }
 
-.next{
+.next {
   background: linear-gradient(45deg, #6e6363, transparent);
   font-size: 30px;
 }

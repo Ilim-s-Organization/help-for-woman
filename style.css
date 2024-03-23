@@ -8,7 +8,6 @@ body {
 	color: #11554c;
 }
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -146,9 +145,6 @@ section {
 }
 
 /* header */
-
-
-
 .header_main {
 	/* margin-top: -62px; */
 	position: fixed;
@@ -157,7 +153,6 @@ section {
 	width: 100%;
 	height: 74px;
 	transition: transform .1s linear;
-
 	left: 0;
 	top: 0;
 }
@@ -166,16 +161,10 @@ section {
 	transform: translateY(-50px);
 }
 
-/* 
-.header{
-	width: 100%;
-} */
-
 .header_list {
 	width: 762px;
 	margin-top: 12px;
 }
-
 
 .header_logo {
 	margin-top: 20px;
@@ -278,7 +267,6 @@ section {
 	background: #008774;
 	color: #fff;
 }
-
 
 /* amal */
 .oneFooter {
@@ -600,8 +588,6 @@ section {
 	text-align: center;
 	/* position: static; */
 }
-
-
 
 /* Ramazan  */
 .Find_section {
