@@ -184,7 +184,7 @@ section {
 	text-align: left;
 }
 
-.header_btner{
+.header_btner {
 	border-radius: 8px;
 	/* border: 1px solid #E6E6E6; */
 	width: 126px;
@@ -485,6 +485,7 @@ section {
 	/* width: 189px; */
 	/* height: 47px; */
 	display: flex;
+	display: flex;
 	/* flex-direction: row; */
 	/* justify-content: flex-start; */
 	/* align-items: flex-start; */
@@ -652,10 +653,6 @@ section {
 	margin-top: 70px;
 }
 
-
-
-
-
 .adress_blocks {
 	display: flex;
 	flex-direction: row;
@@ -675,7 +672,7 @@ section {
 	width: 480px;
 	height: 192px;
 	display: flex;
-	background:white;
+	background: white;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 6px 0px;
 	margin-left: 5px;
 	border-radius: 20px;
@@ -763,4 +760,74 @@ section {
 
 .find_tab_img:hover {
 	transform: scale(0.9);
+}
+
+/* links */
+.container .links {
+	margin: 10px;
+}
+
+.container-md {
+	display: flex;
+	list-style: none;
+}
+
+.container-md .link {
+	text-decoration: none;
+	background: #c9c3c3;
+	color: #067666;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30%;
+	box-shadow: -5px 5px 20px -5px #010101;
+	position: relative;
+	overflow: hidden;
+}
+
+.container-md .link .fa {
+	font-size: 34px;
+	transition: 0.3s ease;
+}
+
+.container-md .link:before {
+	position: absolute;
+	content: "";
+	width: 120%;
+	height: 120%;
+	background-color: #00A991;
+	left: -110%;
+	top: 90%;
+	transform: rotate(45deg);
+}
+
+.container-md .link:hover i {
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+
+.container-md .link:hover:before {
+	animation-name: hover;
+	animation-duration: 0.6s;
+	top: -10%;
+	left: -10%;
+}
+
+@keyframes hover {
+	0% {
+		top: -110%;
+		left: 90%;
+	}
+
+	50% {
+		top: 10%;
+		left: -30%;
+	}
+
+	100% {
+		top: -10%;
+		left: -10%;
+	}
 }
