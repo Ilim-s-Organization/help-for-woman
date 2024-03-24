@@ -157,7 +157,7 @@ section {
 	top: 0;
 }
 
-.header.hide{
+.header.hide {
 	transform: translateY(-50px);
 }
 
@@ -833,4 +833,32 @@ section {
 		top: -10%;
 		left: -10%;
 	}
+}
+
+/* scrallball */
+.reveal {
+	position: relative;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: 1s all ease;
+}
+
+.reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+section:nth-child(1){
+  color: #e0ffff;
+  }
+section:nth-child(2){
+  color: #42455a;
+  background: #e0ffff;
+} 
+section:nth-child(3){
+  color: #e0ffff;
+}
+section:nth-child(4){
+  color: #42455a;
+  background: #e0ffff;
 }
