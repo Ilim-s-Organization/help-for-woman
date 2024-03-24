@@ -1,10 +1,10 @@
 (() => {
 
   const slideImages = [
-    { img: 'assets/images/slide-1.jpg', title: 'Ea id minim', description: 'Consectetur enim culpa exercitation excepteur elit dolore aliquip dolor deserunt duis ea.' },
-    { img: 'assets/images/slide-2.jpg', title: 'Nisi sint qui', description: 'Irure elit ex deserunt cupidatat enim.' },
-    { img: 'assets/images/slide-3.jpg', title: 'Mollit non', description: 'Irure incididunt voluptate veniam aliquip aliqua voluptate duis est ullamco labore.' },
-    { img: 'assets/images/slide-4.jpg', title: 'Id incididunt', description: 'Veniam laborum fugiat reprehenderit magna ut cupidatat aute do.' },
+    { img: 'https://thewaywomenwork.com/wp-content/uploads/2014/03/women-helping-women-international-womens-day.png', title: 'Ea id minim', description: 'Consectetur enim culpa exercitation excepteur elit dolore aliquip dolor deserunt duis ea.' },
+    { img: 'https://files.constantcontact.com/bd34cd19101/57e5bf07-5d99-4be9-adbf-b8510fb1dc6e.jpg?a=1131565133195', title: 'Nisi sint qui', description: 'Irure elit ex deserunt cupidatat enim.' },
+    { img: 'https://vgorode.ua/img/article/5060/9_main-v1583947333.jpg', title: 'Mollit non', description: 'Irure incididunt voluptate veniam aliquip aliqua voluptate duis est ullamco labore.' },
+    { img: 'https://cdn.explara.com/wosafexplara20160606132109.jpg', title: 'Id incididunt', description: 'Veniam laborum fugiat reprehenderit magna ut cupidatat aute do.' },
     { img: 'assets/images/slide-5.jpg', title: 'Commodo ad ', description: 'Velit tempor amet adipisicing quis voluptate mollit voluptate fugiat irure incididunt ipsum.' },
     { img: 'assets/images/slide-6.jpg', title: 'Elit exercitation', description: 'Tempor minim officia est eiusmod ut amet incididunt minim pariatur aliquip occaecat.' },
   ];
