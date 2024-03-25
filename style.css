@@ -592,7 +592,6 @@ section {
 /* Ramazan  */
 .Find_section {
 	width: 1266px;
-	height: 2000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -716,36 +715,41 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
-	display: grid;
-	grid-template-areas: "b b a" "b b c" "b b c"
+	flex-wrap: wrap;
+	/* display: grid; */
+	/* grid-template-areas: "b b a" "b b c" "b b c" */
 }
-
+.find_tabs_page1 > *{
+	width: 33.3%;
+	object-fit: cover;
+}
+/* 
 .find_tabs_video-1 {
 	height: 270px;
 }
 
 .find_tabs_img-1 {
-	/* width: 270px; */
+	width: 270px;
 	height: 253px;
 }
 
 .find_tabs_img-2 {
-	/* width: 170px; */
+	width: 170px;
 	height: 253px;
 }
 
 .find_tabs_img-3 {
-	/* width: 270px; */
+	width: 270px;
 	height: 526px;
 }
 
 .find_tabs_img-4 {
-	/* width: 365px; */
+	width: 365px;
 	height: 520px;
 }
 
 .find_tabs_img-5 {
-	/* width: 560px; */
+	width: 560px;
 	height: 253px;
 }
 
@@ -755,7 +759,7 @@ section {
 
 .find_tabs_img-7 {
 	height: 100%;
-}
+} */
 
 .find_tab_img {
 	transition: 1s;
