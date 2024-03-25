@@ -764,6 +764,15 @@ section {
 .find_tab_img:hover {
 	transform: scale(0.9);
 }
+.donate_title{
+	font-family: Epilogue;
+	font-size: 56px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: -1.25px;
+	text-align: center;
+	margin-top: 200px;
+	}
 
 /* links */
 .container .links {
