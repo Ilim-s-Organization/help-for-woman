@@ -773,6 +773,14 @@ section {
 	text-align: center;
 	margin-top: 200px;
 	}
+	.donate_parag{
+		font-family: Inter;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 28px;
+		letter-spacing: -0.18000000715255737px;
+		text-align: center;
+		}
 
 /* links */
 .container .links {
